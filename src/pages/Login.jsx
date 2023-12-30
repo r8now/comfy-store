@@ -15,6 +15,19 @@ const Login = () => {
           name="password"
           defaultValue="secret"
         />
+        <div className="mt-4">
+          <SubmitBtn text="login" />
+        </div>
+        <button type="button" className="btn btn-secondary btn-block">
+          Guest user
+        </button>
+        <p className="text-center">
+          Not a member yet?
+          <Link
+            to="/register"
+            className="ml-2 link link-hover link-primary capitalize"
+          > Register here</Link> 
+        </p>
       </Form>
     </section>
   );

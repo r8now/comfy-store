@@ -1,8 +1,8 @@
 
-const SubmitBtn = () => {
+const SubmitBtn = ({text}) => {
   return (
     <button type="submit" className="btn btn-primary">
-      submitBtn
+      {text}
     </button>
   )
 }
